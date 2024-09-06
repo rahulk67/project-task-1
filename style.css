@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.company-section {
+    text-align: center;
+    padding: 20px;
+    background-color: white;
+    width: 60%;
+    margin: 0 auto;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    border: 1px solid #000000; /* Purple border */
+    border-radius: 0px; 
+}
+
+.company-name {
+    font-size: 1.5em;
+    color: #ffffff; /* Purple color */
+}
+
+.company-description {
+    font-size: 1.1em;
+    margin: 20px 0;
+    line-height: 1.5;
+}
+
+.team-section h2 {
+    font-size: 1.8em;
+    margin: 30px 0;
+}
+
+.leadership-team, .development-team, .sales-team {
+    margin-bottom: 30px;
+}
+
+h3 {
+    background-color: #800080;
+    color: white;
+    padding: 10px;
+    display: inline-block;
+    border-radius: 10px;
+}
+
+.team-row {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 20px 0;
+}
+
+.team-member {
+    text-align: center;
+    margin: 15px;
+    width: 150px;
+}
+
+.team-member img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    border: 2px solid #800080;
+}
+
+.team-member h4 {
+    font-size: 1.2em;
+    margin: 10px 0 5px;
+}
+
+.team-member p {
+    font-size: 0.9em;
+    color: gray;
+}
+
+.bookmarkRibbon{
+    width:0; 
+    height:100px; 
+    border-right:20px solid blue;
+    border-left:20px solid blue;
+    border-bottom:30px solid transparent;
+    rotate: -90deg;
+    margin-left: 10px;
+    margin-bottom: -50px;
+}
